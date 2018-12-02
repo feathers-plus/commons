@@ -1,0 +1,36 @@
+{
+  "name": "@feathers-plus/commons",
+  "description": "Shared utilities for feathers-plus",
+  "version": "0.0.1",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathersjs",
+    "feathers-plus",
+    "utilities"
+  ],
+  "author": {
+    "name": "John Szwaronek",
+    "email": "johnsz9999@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "mocha": "mocha test/ --recursive --exit --timeout 10000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "mocha": "^5.2.0"
+  }
+}
