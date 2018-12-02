@@ -5,12 +5,12 @@ const { inspect } = require('util');
 module.exports = {
   debug,
   inspector,
-  throwError,
+  throwError
 };
 
-function debug() {}
+function debug () {}
 
-function inspector(desc, obj) {
+function inspector (desc, obj) {
   if (desc) console.log(desc);
   console.log(inspect(obj, { colors: true, depth: 5 }));
 }

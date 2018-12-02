@@ -6,7 +6,7 @@ module.exports = {
   isFunction,
   isNullsy,
   isObject,
-  isString,
+  isString
 };
 
 function isArray (array) {
@@ -17,7 +17,7 @@ function isFunction (func) {
   return typeof func === 'function';
 }
 
-function isNullsy(obj) {
+function isNullsy (obj) {
   return obj === null || obj === undefined;
 }
 
