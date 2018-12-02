@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "homepage": "",
   "main": "src",
-  "private": "false",
+  "private": false,
   "keywords": [
     "feathersjs",
     "feathers-plus",
