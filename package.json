@@ -1,7 +1,7 @@
 {
   "name": "@feathers-plus/commons",
   "description": "Shared utilities for feathers-plus",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "homepage": "",
   "main": "src",
   "private": false,
