@@ -3,6 +3,7 @@
 
 module.exports = {
   isArray,
+  isBoolean,
   isFunction,
   isNullsy,
   isObject,
@@ -11,6 +12,10 @@ module.exports = {
 
 function isArray (array) {
   return Array.isArray(array);
+}
+
+function isBoolean(bool) {
+  return bool === true || bool === false;
 }
 
 function isFunction (func) {

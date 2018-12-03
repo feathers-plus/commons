@@ -25,6 +25,7 @@
     "npm": ">= 3.0.0"
   },
   "scripts": {
+    "public": "npm publish --access public",
     "publish": "git push origin --tags && npm run changelog && git push origin",
     "release:prerelease": "npm version prerelease && npm publish --tag pre",
     "release:patch": "npm version patch && npm publish",
