@@ -9,10 +9,12 @@ const commonsNames = [
   'flatten1Level',
   'inspector',
   'isArray',
+  'isBoolean',
   'isFunction',
   'isNullsy',
   'isObject',
   'isString',
+  'SpyOn',
   'throwError'
 ].sort();
 
